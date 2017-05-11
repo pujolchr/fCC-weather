@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Christian Pujol">
+  <meta name="description" content="Get your local Weather ">
+  <title>naga.no | fCC | Weather</title>
+
+  <script src="https://use.fontawesome.com/a0e523aa26.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- script wich pilot the data weather acquisition -->
+  <script src="getweather.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body lang="en">
+  <main class="container-fluid page-header row no-bottom-border rounded well well-info">
+    <div class="col-xs-8 col-sm-4 col-md-3 row margin-left">
+      <div class="well rounded">
+        <h1 id="place" class="bg-primary rounded text-center"> </h1>
+        <ul class="text-center list-unstyled">
+          <li> Latitudes:
+            <span id="place-latitude" class="text-left"> </span>
+          </li>
+          <li>Longitude:
+            <span id="place-longitude" class="text-left"></span>
+          </li>
+          <li>Weather:
+            <span id="weather-description" class="text-left"></span>
+          </li>
+          <li class="">Temperature:
+            <span class="text-left">
+                      <span id="temperature">25</span>
+            <span id="temp-unit">°C</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <button id="convertCF" class="celsius btn btn-success btn-lg rounded text-rigth">
+                Want some Fahrenheit?
+              </button>
+    </div>
+    <div id="image" class="col-xs-12 col-sm-8  col-md-9 row rounded">
+    </div>
+  </main>
+  <footer class="text-center">
+    <small>
+    by
+    <a class="rounded" href="https://no.linkedin.com/in/christianpujol" target="_blank">
+      Christian Pujol 
+    </a>
+     for <a href="https://freecodecamp.com">freeCodeCamp</a>.</br>
+     You will find the source code on
+     <a  href="https://github.com/pujolchr/fCC-weather" target="_blank">GitHub</a>
+    </small>
+  </footer>
+
+</body>
+
+</html>
