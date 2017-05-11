@@ -20,5 +20,5 @@ Or:
 
 ## 
  * code source: https://github.com/pujolchr/fCC-weather
- * live: https://pujolchr.github.io/fCC-quote/
+ * live: https://naga.no/fcc/weather/
 
