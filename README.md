@@ -19,5 +19,4 @@
 
 ## 
  * code source: https://github.com/pujolchr/fCC-weather
- * live: https://naga.no/fcc/weather/
-
+ * live: https://pujolchr.github.io/fCC-weather/
